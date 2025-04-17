@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --first-second-color-gradient: #d3d3d3;
+    --text-color: black;
+    --accent-color: black;
+    --main-color: white;
+    --main-font: 'Press Start 2P';
+    --text-font: 'Inter';
+
+    --light-stripe-color: #d3d3d3;
+    --dark-stripe-color: #000;
+    --light-bg-start: #e7e7e7;
+    --light-bg-end: #1a1a1a;
+    --dark-bg-start: #007f0c;
+    --dark-bg-end: #004306;
+}
