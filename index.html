@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/themes.css">
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
@@ -23,12 +24,32 @@
           </h2>
         </article>
         
-          <ul class="header-theme-menu-list">
-            <li class="header-theme-menu-item">темно</li>
-            <li class="header-theme-menu-item">авто</li>
-            <li class="header-theme-menu-item">светло</li>
+        <nav class="header__theme-menu">
+          <ul class="header__theme-menu-list">
+            <li class="header__theme-menu-item">
+              <button
+                class="header__theme-menu-button header__theme-menu-button_type_dark"
+              >
+                темно
+              </button>
+            </li>
+            <li class="header__theme-menu-item">
+              <button
+                class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+                disabled
+              >
+                авто
+              </button>
+            </li>
+            <li class="header__theme-menu-item">
+              <button
+                class="header__theme-menu-button header__theme-menu-button_type_light"
+              >
+                светло
+              </button>
+            </li>
           </ul>
-        
+        </nav>
       
     </header>
     <main class="main">
@@ -48,7 +69,7 @@
               Место для ваших воспоминаний о начале обучения.
             </p>
           </article>
-          <button class="card-button">Like</button>
+          <button class="card__like-button"><span class="button__text">Like</span></button>
         </section>
       </section>
 
@@ -69,7 +90,7 @@
               Место для ваших воспоминаний о начале первого спринта.  
             </p>
           </article>
-          <button class="card-button">Like</button>
+          <button class="card__like-button"><span class="button__text">Like</span></button>
         </section>
       </section>
 
@@ -89,7 +110,7 @@
               Место для ваших воспоминаний об окончании первого спринта. 
             </p>
           </article>
-          <button class="card-button">Like</button>
+          <button class="card__like-button"><span class="button__text">Like</span></button>
         </section>
       </section>
 
@@ -109,7 +130,7 @@
               Место для ваших воспоминаний о начале второго спринта.
             </p>
           </article>
-          <button class="card-button">Like</button>
+          <button class="card__like-button"><span class="button__text">Like</span></button>
         </section>
       </section>
 
@@ -130,7 +151,7 @@
               Место для ваших воспоминаний об окончании второго спринта.  
             </p>
           </article>
-          <button class="card-button">Like</button>
+          <button class="card__like-button"><span class="button__text">Like</span></button>
         </section>
       </section>
 
@@ -149,7 +170,7 @@
               Место для ваших воспоминаний о начале третьего спринта. 
             </p>
           </article>
-          <button class="card-button">Like</button>
+          <button class="card__like-button"><span class="button__text">Like</span></button>
         </section>
       </section>
 
@@ -169,7 +190,7 @@
               Место для ваших воспоминаний об окончании третьего спринта.
             </p>
           </article>
-          <button class="card-button">Like</button>
+          <button class="card__like-button"><span class="button__text">Like</span></button>
         </section>
       </section>
 
@@ -189,7 +210,7 @@
               Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.
             </p>
           </article>
-          <button class="card-button">Like</button>
+          <button class="card__like-button"><span class="button__text">Like</span></button>
         </section>
       </section>
 
@@ -201,10 +222,10 @@
       onclick="window['dialog-id'].showModal();"
       aria-controls="dialog-id"
       >
-        <svg class="floppy-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" width="21" height="21">
-          <use href="./svg/floppy.svg#disc">
+        <svg class="floppy-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 39" width="21" height="21">
+          <use href="./svg/floppy.svg#floppy">
         </svg>
-        <span class="save-button-text">Сохранить на память</span>
+        <span class="save-button-text button__text">Сохранить на память</span>
       </button>
 
       <dialog class="popup" id="dialog-id">

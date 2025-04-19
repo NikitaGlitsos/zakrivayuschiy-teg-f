@@ -4,8 +4,8 @@
     --text-color: black;
     --accent-color: black;
     --main-color: white;
-    --main-font: 'Press Start 2P';
-    --text-font: 'Inter';
+    --main-font: 'Press Start 2P', sanserif;
+    --text-font: 'Inter', sanserif;
 
     --light-stripe-color: #d3d3d3;
     --dark-stripe-color: #000;

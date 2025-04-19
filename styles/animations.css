@@ -9,3 +9,9 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+
+@keyframes white-black {
+    to {
+        background-position: left;
+    }
+}
