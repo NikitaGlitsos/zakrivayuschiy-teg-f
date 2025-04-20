@@ -1,33 +1,38 @@
 :root.theme-dark {
+    --bg: url(../images/background-dark.png);
     --text-color: #00CC14;
     --accent-color: #00CC14;
     --main-color: #000;
     --main-font: 'Press Start 2P', sanserif;
     --text-font: 'Inter', sanserif;
+    --button-text: hsl(126, 100%, 40%);
+    --heart: #FF0000;
+    --heart-body: #00CC14;
+}
+
+:root.theme-light {
+    --bg: url(../images/background.png);
+    --text-color: black;
+    --accent-color: black;
+    --main-color: white;
+    --main-font: 'Press Start 2P', sanserif;
+    --text-font: 'Inter', sanserif;
+    --button-text: white;
+    --heart: #FF0000;
+    --heart-body: black;
 }
 
 @media (prefers-color-scheme: dark) {
-    .page {
-    background-image: url(../images/background-dark.png);
-    }
     :root {
+    --bg: url(../images/background-dark.png);
     --text-color: #00CC14;
     --accent-color: #00CC14;
     --main-color: #000;
     --main-font: 'Press Start 2P', sanserif;
     --text-font: 'Inter', sanserif;
-    }
-    .dialog-floppy {
-        color: var(--accent-color);
-        mix-blend-mode: normal;
-    }
-    .card__like-button {
-        background:linear-gradient(to right, #fff 0% 50%, #000 50%);
-        background-size: 200% 100%;
-        background-position: right;
-    }
-    .button__text {
-        color: var(--accent-color);
-        mix-blend-mode: normal;
+    --button-text: #00CC14;
+    --heart: #FF0000;
+    --heart-body: #00CC14;
     }
 }
+
