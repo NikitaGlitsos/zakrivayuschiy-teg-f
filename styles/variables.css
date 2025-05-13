@@ -1,12 +1,19 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
     --bg: url(../images/background.png);
     --text-color: black;
     --accent-color: black;
     --main-color: white;
-    --main-font: 'Press Start 2P', sanserif;
-    --text-font: 'Inter', sanserif;
+    --main-font: 'Press Start 2P', fantasy, sans-serif;
+    --text-font: 'Inter', fantasy, sans-serif;
     --button-text: white;
     --heart: #FF0000;
     --heart-body: black;
+    --font-weight-title: 700; 
+    --font-weight-main: 400;
+    --gradient-color: #d3d3d3;
+    --gradient-color-to-bottom-first: #e7e7e7;
+    --gradient-color-to-bottom-second: #1a1a1a;
 }
+
+
+
