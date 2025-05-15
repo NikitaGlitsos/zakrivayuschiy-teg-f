@@ -5,7 +5,7 @@
     --button-text: hsl(126, 100%, 40%);
     --heart: #FF0000;
     --heart-body: #00CC14;
-    --font-weight-title: 785; 
+    --font-weight-title: 785;
     --font-weight-main: 465;
     --gradient-color: #000;
     --gradient-color-to-bottom-first: #007f0c;
@@ -39,6 +39,6 @@
     --gradient-color: #000;
     --gradient-color-to-bottom-first: #007f0c;
     --gradient-color-to-bottom-second: #004306;
-    }
+    } 
 }
 

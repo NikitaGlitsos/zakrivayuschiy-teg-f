@@ -1,9 +1,3 @@
-@keyframes white-black {
-    to {
-        background-position: left;
-    }
-}
-
 @keyframes changes {
     from {
         inset-inline-start: -20px;
